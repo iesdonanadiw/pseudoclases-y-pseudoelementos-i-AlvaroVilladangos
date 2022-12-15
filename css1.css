@@ -1,0 +1,51 @@
+body :not(h1) {
+color: #336699;
+}
+div:hover{
+    border: solid black;
+}
+
+input:focus,
+:default{
+    background-color: lightblue;
+}
+
+input[type="radio"]:default{
+    box-shadow: 0 0 2px 2px coral ;
+}
+
+
+input[type="radio"]:default + label{
+    box-shadow: 0 0 2px 2px coral ;
+}
+
+input:in-range{
+    border: 2px solid green;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+p:last-child{
+
+    color: lime;
+    background-color: black;
+    padding: 5px;
+}
+
+input:read-write{
+    background: lightgray;
+}
+
+p:first-child {
+    color: red;
+  }
+
+  input:optional {
+    border: 1px dashed black;
+  }
+
+  main :only-child{
+    color: red;
+  }
