@@ -18,6 +18,6 @@ em:first-of-type{
     color: greenyellow;
 }
 
-strong:last-of-type{
+strong:first-of-type{
     color:cyan;
 }
