@@ -1,0 +1,23 @@
+h1:first-of-type{
+    color: red;
+}
+
+h2:last-of-type{
+    color: magenta;
+}
+
+p:first-of-type{
+    color: green;
+}
+
+p:last-child{
+    color: blue
+}
+
+em:first-of-type{
+    color: greenyellow;
+}
+
+strong:last-of-type{
+    color:cyan;
+}
